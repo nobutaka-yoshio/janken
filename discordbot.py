@@ -4,7 +4,7 @@ import random
 import asyncio
 
 # 自分のBotのアクセストークンに置き換えてください
-TOKEN = 'Nzc5OTg5ODE2ODUwMjUxNzk3.X7okHw.F_FVDUPTPHOTPrw4jlI8PBuW88U'
+TOKEN = 'Nzc5OTg5ODE2ODUwMjUxNzk3.X7okHw.ylKgt1O6Eh8NJKhAdySdyX-HiIM'
 arr = ['ぐー:punch:', 'ちょき:v:', 'ぱー:hand_splayed:']
 # 接続に必要なオブジェクトを生成
 client = discord.Client()
