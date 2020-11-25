@@ -2,9 +2,12 @@
 import discord
 import random
 import asyncio
+from discord.ext import commands
+import os
+import traceback
 
 # 自分のBotのアクセストークンに置き換えてください
-TOKEN = 'Nzc5OTg5ODE2ODUwMjUxNzk3.X7okHw.q6jP8rp-vpcC-ihtQJItcPs5ta0'
+TOKEN = os.environ['DISCORD_BOT_TOKEN']
 arr = ['ぐー:punch:', 'ちょき:v:', 'ぱー:hand_splayed:']
 # 接続に必要なオブジェクトを生成
 client = discord.Client()
